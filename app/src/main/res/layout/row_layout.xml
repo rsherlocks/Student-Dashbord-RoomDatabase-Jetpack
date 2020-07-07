@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+<androidx.cardview.widget.CardView
+    android:background="#fff"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textViewStudentName"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/textViewStudentId"
+
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/textViewStudentSemester"
+
+            android:layout_margin="10dp"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>
